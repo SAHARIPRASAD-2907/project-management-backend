@@ -1,9 +1,9 @@
-var http = require("http");
+//console.log("Hello working");
+const express = require("express");
+require("dotenv").config();
 
-//create a server object:
-http
-  .createServer(function(req, res) {
-    res.write("Hello World!"); //write a response to the client
-    res.end(); //end the response
-  })
-  .listen(8080); //the server object listens on port 8080
+const port = process.env.PORT || 8000;
+
+const app = express();
+
+app.listen(port, console.log(`server running on port ${port}`));
