@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js"
+    "start": "node index.js"
   },
   "license": "MIT",
   "dependencies": {
@@ -15,13 +14,10 @@
     "graphql": "^15.8.0",
     "mongoose": "^6.3.5"
   },
-  "scripts": {
-    "start": "node index.js"
-  },
   "devDependencies": {
     "@types/node": "^17.0.21",
     "dotenv": "^16.0.1",
-    "nodemon": "^2.0.16"
+    "nodemon": "^2.0.19"
   },
   "keywords": [],
   "description": ""
